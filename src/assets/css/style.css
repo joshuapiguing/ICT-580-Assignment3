@@ -1,0 +1,152 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+}
+
+header {
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.7vw;
+}
+
+header a {
+    color: #3b4d93;
+}
+
+header a:hover {
+    color: #f08800;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    margin: 10px;
+    list-style: none;
+    font-size: 1em;
+    overflow: auto;
+}
+
+#aboutme {
+    align-items: center;
+}
+
+.photo {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin: 10px;
+    max-width: 100%;
+}
+
+#aboutmeintro {
+    padding: 10px;
+    margin: 2%;
+    align-items: center;
+    color: #3b4d93;
+    font-size: 3vw;
+}
+
+#subhead {
+    margin-left: 2.5%;
+}
+
+#subhead a {
+    color: #3b4d93
+}
+
+#subhead a:hover {
+    color: #f08800
+}
+
+#aboutme {
+    background-color: #38373b;
+}
+
+.about-me-text {
+    padding: 5%;
+    margin: 5%;
+    color: #ffffff;
+}
+
+.skills-text {
+    padding: 5%;
+    margin: 5%;
+}
+
+#experience {
+    background-color: #38373b;
+    max-width: 100%
+}
+
+.experience-text {
+    padding: 5%;
+    margin-left: 5%;
+    color: #ffffff;
+}
+
+.education-text {
+    padding: 5%;
+    margin: 5%;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    grid-gap: 1em;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.footer > div {
+    background: #3b4d93;
+    padding: 1em;
+    color: #ffffff;
+}
+
+
+.footer a {
+    color: #ffffff;
+}
+
+.footer a:hover {
+    color: #f08800;
+}
+
+/* Styling contact.html */
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  input[type=submit] {
+    background-color: #3b4d93;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #1b2759;
+  }
+
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
