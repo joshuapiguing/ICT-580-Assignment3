@@ -1,10 +1,14 @@
+<!-- DOCTYPE html code is used to declare that this document is an HTML5 document. -->
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Below SEO Meta tags are used to inform users on what the content is about, specifies character set to use, and sets the visible area of the 
+    webpage. -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Joshua Piguing Web-based Resume" />
 
+    <!-- Fontawesome is used to show a star symbol, reflecting skill rate under Skills section. -->
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
@@ -12,19 +16,30 @@
       crossorigin="anonymous"
     />
 
+    <!-- Set tab title and favicon -->
+    <!-- Title is used to give users a quick insight on the content of a result and why is it relevant. -->
     <title>Joshua Piguing Resume</title>
     <link rel="icon" type="image/x-icon" href="src/img/favicon-32x32.png" />
 
+    <!-- Load local Style Sheets -->
     <link rel="stylesheet" type="text/css" href="../src/assets/css/style.css" />
   </head>
 
   <body>
+    <!-- div is used to define a division in an HTML document, which is later on styled with CSS. -->
+    <!-- Class selector is used to select certain elements with a certain class name. -->
     <div class="header">
+      <!-- Header represents a container for introductory content. -->
       <header>
+        <!-- h1 to h6 defines a heading in HTML. -->
         <h3>Joshua Piguing</h3>
 
+        <!-- nav defines a navigation link. -->
         <nav>
+          <!-- ul defines an unordered list. -->
           <ul>
+            <!-- li defines a list item. -->
+            <!-- Anchor link defines a hyperlink, to link one page from another. -->
             <li><a href="index.html">Home</a></li>
             <li><a href="#aboutme">About Me</a></li>
             <li><a href="#skills">Skills</a></li>
@@ -36,11 +51,14 @@
       </header>
     </div>
 
+    <!-- Section signifies a section in an HTML document. -->
     <section class="photo">
+      <!-- id selector selects an entire element without any special characters. -->
       <h3 id="aboutmeintro">
         Hi, I am Josh, a Marketing and Creative Professional.
       </h3>
 
+      <!-- img defines an image. -->
       <img
         src="src/img/Josh-main-image.jpg"
         style="width: 20%"
@@ -70,7 +88,9 @@
     <article id="skills">
       <section class="skills-text">
         <h4>- Skills</h4>
+        <!-- Table is used to define an HTML Table and to organize information. -->
         <table>
+          <!-- TR elements define a Table Row, TH elements define a Table Header, and TD elements define a Table Cell. -->
           <tr>
             <td><strong>Adobe Creative Suite</strong></td>
             <td>
