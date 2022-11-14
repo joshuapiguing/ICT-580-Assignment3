@@ -103,6 +103,10 @@ nav ul li {
     margin: 5%;
 }
 
+/* Styling the footer using Grid - A shorthand property for the 
+grid-template-rows, grid-template-columns, grid-template-areas, 
+grid-auto-rows, grid-auto-columns, and the grid-auto-flow 
+properties */
 .footer {
     display: grid;
     grid-template-columns: 40% 30% 30%;
@@ -126,10 +130,7 @@ nav ul li {
     color: #f08800;
 }
 
-/* Styling contact.html. using grid. A shorthand property for the 
-grid-template-rows, grid-template-columns, grid-template-areas, 
-grid-auto-rows, grid-auto-columns, and the grid-auto-flow 
-properties */
+/* Styling contact.html. */
 
 input[type=text], select, textarea {
     width: 100%; /* Full width */
@@ -159,4 +160,18 @@ input[type=text], select, textarea {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
+  }
+  
+  /* On screens that are 992px wide or less */
+@media screen and (max-width: 992px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* On screens that are 600px wide or less */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
   }
